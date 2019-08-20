@@ -2,16 +2,14 @@
 
 import unittest
 
-
-# from .context import sample
+from sample import core
 
 
 class AdvancedTestSuite(unittest.TestCase):
     """Advanced test cases."""
-    """
+
     def test_thoughts(self):
-        self.assertIsNone(sample.hmm())
-    """
+        self.assertIsNone(core.hmm())
 
 
 if __name__ == '__main__':
