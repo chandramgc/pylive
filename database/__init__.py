@@ -1,4 +1,3 @@
-from database import mysql
+from database import mysql_example as mn
 
-mysql.get_mysql_version()
-mysql.get_mysql_product()
+mn.get_mysql_version()
